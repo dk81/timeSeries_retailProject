@@ -28,11 +28,13 @@ The first notebook consists of me obtaining number of orders for each product ca
 
 In notebook two, I get involved with the forecasting models. The `auto_arima()` function from `pyramid.arima` is used to forecast Q3 (overall) monthly profits. I use Seasonal Autoregressive Moving Average (SARIMA) models for forecasting to account for seasonality within a calendar year and for accounting for general trends.
 
-Notebook three goes a bit deeper and does forecasting Q3 profits for each product category. I use one SARIMA model for forecasting Q# profits on office supplies, a different SARIMA model for technology products and a different third model for furniture.
+Notebook three goes a bit deeper and does forecasting Q3 profits for each product category. I use one SARIMA model for forecasting Q3 profits on office supplies, a different SARIMA model for technology products and a different third model for furniture.
 
-
+&nbsp;
 
 # Reworked Version Of Project
 ---
 
-A reworked version of project with less clutter coming soon.
+The reworked version of the time series Python project is much shorter and has clutter. It focuses more on the the time series predictions. There is an added experimental section where I try out the Holt-Winters time series model on the retail data. 
+
+A comparison plot is shown to show the difference in predictions between the selected SARIMAX model and the selected Holt-Winters model.
