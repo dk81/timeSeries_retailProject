@@ -22,7 +22,7 @@ This retail store sells office supplies, technology products and furniture.
 # Notes About The Three Part Notebook Files
 ---
 
-I have separated the project into three (Colab) notebooks. 
+I have separated the project into three (Colab) notebooks. The original project looked at forecasting **profits**.
 
 The first notebook consists of me obtaining number of orders for each product category, profits for each category, number of orders for each region and for each market. Essentially I was doing exploratory data analysis (EDA) trying to see what to further investigate.
 
@@ -35,6 +35,7 @@ Notebook three goes a bit deeper and does forecasting Q3 profits for each produc
 # Reworked Version Of Project
 ---
 
-The reworked version of the time series Python project is much shorter and has clutter. It focuses more on the the time series predictions. There is an added experimental section where I try out the Holt-Winters time series model on the retail data. 
+The reworked version of the time series Python project is much shorter and has less clutter. Forecasts here are on **sales**. It focuses more on the the time series predictions. There is an added experimental section where I try out the Holt-Winters time series model on the retail data. 
 
 A comparison plot is shown to show the difference in predictions between the selected SARIMAX model and the selected Holt-Winters model.
+
